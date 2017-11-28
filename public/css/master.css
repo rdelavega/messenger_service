@@ -44,9 +44,9 @@ nav ul a.btn, nav ul a.btn-large, nav ul a.btn-large, nav ul a.btn-flat, nav ul 
 }
 
 .user {
-  max-height: 20%;
-  min-height: 20%;
-  height: 20%;
+  max-height: 25%;
+  min-height: 25%;
+  height: 25%;
 }
 
 .user>.user-view, .background {
@@ -77,9 +77,9 @@ nav ul a.btn, nav ul a.btn-large, nav ul a.btn-large, nav ul a.btn-flat, nav ul 
 }
 
 .list-notifications {
-  max-height: 72%;
-  min-height: 72%;
-  height: 72%;
+  max-height: 67%;
+  min-height: 67%;
+  height: 67%;
 }
 
 .list-notifications>ul {
