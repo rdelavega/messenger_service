@@ -1,0 +1,39 @@
+<ul class="sidenav sidenav-fixed">
+  <li class="user">
+    <div class="user-view">
+      <div class="background">
+        <img class="responsive-img" src="images/mail.jpeg">
+      </div>
+      <a><img class="circle" src="{IMAGE}"></a>
+      <a><span class="white-text name">{LNAME}, {NAME}</span></a>
+      <a><span class="white-text email">{USERNAME} | {TYPE}</span></a>
+    </div>
+  </li>
+  <li class="search-panel">
+    <div class="row">
+      <div class="input-field col s12">
+        <i class="red-text material-icons prefix i-search">search</i>
+        <input type="text" placeholder="Búsqueda">
+      </div>
+    </div>
+  </li>
+  <li class="list-notifications">
+    <ul class="collection">
+      {LIST}
+    </ul>
+  </li>
+</ul>
+
+<nav class="blue darken-4">
+  <div class="nav-wrapper">
+    <ul class="right hide-on-med-and-down">
+      <a class="btn-floating waves-effect waves-light black tooltipped" data-position="left" data-delay="50" data-tooltip="Preferencias"><i class="material-icons">settings_applications</i></a>
+      <a class="btn-floating waves-effect waves-light black tooltipped" data-position="left" data-delay="50" data-tooltip="Cerrar Sesión"><i class="material-icons">close</i></a>
+    </ul>
+  </div>
+</nav>
+
+<main class="hidden">
+</main>
+
+<script src="./js/user.js" charset="utf-8"></script>
